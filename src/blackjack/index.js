@@ -1,6 +1,6 @@
 
 import _ from 'underscore';
-import { crearDeck as crearNuevoDeck } from './usecases/crear-deck.js'; //Exportacion independiente.
+import { crearDeck } from './usecases/crear-deck.js'; //Exportacion independiente.
 
 /**
  * 2C = Two of Clubs
@@ -28,7 +28,7 @@ const puntosHTML = document.querySelectorAll('small');
 
 // Esta función crea un nuevo deck
 
-deck = crearNuevoDeck( tipos, especiales );
+deck = crearDeck( tipos, especiales );
 
 
 // Esta función me permite tomar una carta

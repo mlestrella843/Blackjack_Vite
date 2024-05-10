@@ -21,5 +21,5 @@ export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
     deck = _.shuffle( deck );
     // console.log( deck );
     return deck;
-    
+
 }
